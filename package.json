@@ -1,0 +1,9 @@
+{
+  "name": "backend-interview-001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Moxie-Labs/backend-interview-001.git",
+  "author": "khang <enone859@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
