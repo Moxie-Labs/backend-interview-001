@@ -1,10 +1,10 @@
 import { Hono } from 'hono'
-import { db } from './database';
+import { db } from '@/database';
 
 const app = new Hono();
 
 app.get('/', async (c) => {
-  const select = db.query(`SELECT * FROM foo;`);
+  const select = db.query(`SELECT * FROM users;`);
   const result = select.get();
 
   if (!result) {

@@ -1,7 +1,7 @@
 {
   "name": "backend-interview-001",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "repository": "git@github.com:Moxie-Labs/backend-interview-001.git",
   "author": "khang <enone859@gmail.com>",
   "license": "MIT",
@@ -16,6 +16,6 @@
     "hono": "^4.7.5"
   },
   "scripts": {
-    "dev": "bun run --watch index.ts"
+    "dev": "bun run --watch src/index.ts"
   }
 }
