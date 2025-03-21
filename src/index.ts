@@ -24,6 +24,7 @@ app.post('/login', LoginController.login);
 // Lists
 app.get('/lists', TodoListsController.get);
 app.post('/lists', TodoListsController.create);
+app.put('/lists/:id', TodoListsController.updateListName);
 
 // Items
 app.get('/lists/:listId/items', TodoItemsController.getItemsByListId);
