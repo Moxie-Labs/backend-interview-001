@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import { db } from '@/database';
+import { db } from '@/services/database';
 
 const app = new Hono();
 

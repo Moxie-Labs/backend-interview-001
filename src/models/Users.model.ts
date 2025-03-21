@@ -1,8 +1,6 @@
-import { Database } from "bun:sqlite";
+import { db } from "@/services/database";
 
-export const db = new Database(":memory:");
-
-const query = db.query(`
+const createUserTable = db.query(`
   CREATE TABLE IF NOT EXISTS users (
     id integer primary key autoincrement,
     first_name text,
@@ -14,4 +12,4 @@ const query = db.query(`
   );
 `);
 
-query.run();
+createUserTable.run();
