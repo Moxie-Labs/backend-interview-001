@@ -11,5 +11,11 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.7.5"
+  },
+  "scripts": {
+    "dev": "bun run --watch index.ts"
   }
 }
