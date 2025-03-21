@@ -1,4 +1,4 @@
-import { db } from "@/services/database";
+import { db } from "@/services/Database.service";
 
 const createUserTable = db.query(`
   CREATE TABLE IF NOT EXISTS users (
