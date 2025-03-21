@@ -14,9 +14,8 @@
 
 ### About the product
 
-We're creating a Todo list application that allows users to:
-- Sign up for a new account
-- Log in to their existing account
+We're creating an API for a Todo list application that allows users to:
+- Sign up for a new account, and login
 - Create and manage multiple task lists within their account
 
 ### Local Development
