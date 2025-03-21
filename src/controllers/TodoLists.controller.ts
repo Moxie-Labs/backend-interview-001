@@ -13,4 +13,10 @@ export class TodoListsController {
 
     return c.json({ message: "Created list successfully" });
   }
+
+  static async get(c: Context) {
+    const lists = db.query(`SELECT * FROM lists;`).all();
+
+    return c.json({ lists });
+  }
 }
