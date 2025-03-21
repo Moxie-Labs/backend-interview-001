@@ -11,3 +11,10 @@
 * For each issue identified, explain your reasoning and suggest specific solutions
 * Consider both immediate fixes and long-term architectural improvements
 * Prioritize your recommendations based on impact and implementation effort
+
+
+### Local Development
+
+1. Install Bun https://bun.sh/
+2. Run `bun install`
+3. Run `bun dev`
