@@ -12,6 +12,12 @@
 * Consider both immediate fixes and long-term architectural improvements
 * Prioritize your recommendations based on impact and implementation effort
 
+### About the product
+
+We're creating a Todo list application that allows users to:
+- Sign up for a new account
+- Log in to their existing account
+- Create and manage multiple task lists within their account
 
 ### Local Development
 
